@@ -1,0 +1,23 @@
+{
+  "name": "solidity-project-template",
+  "version": "0.1.0",
+  "description": "A simple project template, created to quickly start new Solidity projects.",
+  "main": "truffle.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "keywords": [
+    "solidity",
+    "template"
+  ],
+  "author": "clemlak",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^6.0.0",
+    "openzeppelin-solidity": "^1.11.0",
+    "truffle-hdwallet-provider": "0.0.5"
+  }
+}
